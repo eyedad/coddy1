@@ -1,10 +1,10 @@
 class Sparklers:
 
-    def __init__(self, b1, c1):
+    def __init__(self, b1: int, c1: int) -> None:
         self.neededToCreate2 = b1
         self.count = c1
     
-    def efficientUseTime(self):
+    def efficientUseTime(self) -> int:
         T = 0
         extinct = 0
         while self.count > 0:

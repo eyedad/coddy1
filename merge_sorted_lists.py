@@ -1,4 +1,4 @@
-def merge_sorted_lists(a, b):
+def merge_sorted_lists(a: list[int | float], b: list[int | float]) -> list[int | float]:
     
     res = []
     i = len(a) - 1
